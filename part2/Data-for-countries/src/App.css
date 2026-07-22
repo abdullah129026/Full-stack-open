@@ -1,0 +1,190 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffa500;
+  min-height: 100vh;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box label {
+  font-weight: 500;
+  color: #333;
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  font-size: 16px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #222;
+  background-color: #fff;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.country-list {
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.country-item:last-child {
+  border-bottom: none;
+}
+
+.country-name {
+  font-size: 16px;
+  color: #333;
+}
+
+.show-button {
+  padding: 6px 12px;
+  border: 1px solid #333;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.show-button:hover {
+  background-color: #f0f0f0;
+}
+
+.country-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.back-button {
+  padding: 6px 12px;
+  border: 1px solid #333;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #f0f0f0;
+}
+
+.country-details h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.country-details h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.country-info {
+  margin-bottom: 20px;
+}
+
+.country-info p {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 16px;
+}
+
+.languages ul {
+  list-style-position: inside;
+  color: #333;
+}
+
+.languages li {
+  margin-bottom: 4px;
+}
+
+.flag {
+  margin-top: 20px;
+}
+
+.flag img {
+  max-width: 200px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Weather section */
+.weather {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.weather h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.weather-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.weather-info {
+  flex: 1;
+}
+
+.weather-info p {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 16px;
+}
+
+.weather-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Loading and error states */
+.container p {
+  color: #333;
+}

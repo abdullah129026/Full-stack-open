@@ -1,0 +1,9 @@
+
+> phonebook-backend@1.0.0 start
+> node index.js
+
+Server running on port 3001
+GET /api/persons 200 231 - 3.443 ms {}
+GET /api/persons/1 200 53 - 0.659 ms {}
+POST /api/persons 201 53 - 0.527 ms {"name":"Test User","number":"123-456"}
+GET /info 200 116 - 0.566 ms {}
